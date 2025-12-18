@@ -150,7 +150,6 @@ footer {
   border-radius: 4px;
 }
 
-
 .participants-list {
   margin-top: 5px;
   margin-left: 0;
@@ -159,10 +158,16 @@ footer {
   padding-left: 0;
 }
 
+.no-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
 .participant-item {
   display: flex;
   align-items: center;
-  margin-bottom: 4px;
+  justify-content: space-between;
+  padding: 2px 0;
 }
 
 .participant-name {
@@ -170,15 +175,15 @@ footer {
 }
 
 .delete-participant {
-  margin-left: 10px;
   color: #c62828;
   cursor: pointer;
+  margin-left: 10px;
   font-size: 1.1em;
   transition: color 0.2s;
   user-select: none;
 }
 .delete-participant:hover {
-  color: #ff1744;
+  color: #ff5252;
 }
 
 .no-participants {
